@@ -8,7 +8,7 @@ jobs:
    
    steps: 
      - name: greeting
-      run: echo "Hello sir "
+       run: echo "Hello sir "
 
      - uses: actions/checkout@v3 
   
