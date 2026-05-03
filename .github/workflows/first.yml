@@ -7,10 +7,10 @@ jobs:
    runs-on: ubuntu-latest  
    
    steps: 
-     - name: greeting
-       run: echo "Hello sir "
-
-     - uses: actions/checkout@v3 
+     - uses: actions/checkout@v3
+     
+     - name: npm install
+       uses: action/setup-node@v3
        with:
          node-version: 18 
 
